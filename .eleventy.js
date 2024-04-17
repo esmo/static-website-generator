@@ -9,9 +9,9 @@ module.exports = function (eleventyConfig) {
   let cfg = {
     markdownTemplateEngine: "njk",
     dir: {
-      input: process.env.SWG_INPUT_DIRECTORY || "src", // Adjusted to your input directory
+      input: process.env.SWG_INPUT_DIRECTORY, // Adjusted to your input directory
       includes: "_includes", // Default includes directory
-      output: process.env.SWG_OUTPUT_DIRECTORY || "html", // Adjusted to your output directory
+      output: process.env.SWG_OUTPUT_DIRECTORY, // Adjusted to your output directory
     },
   };
 

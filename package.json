@@ -1,8 +1,8 @@
 {
   "scripts": {
     "build": "eleventy",
-    "watch": "onchange 'docs/**/*' -- npm run build",
-    "serve": "npm run build && browser-sync start --server html --files html --no-notify",
+    "watch": "node bin/watch.js",
+    "serve": "node bin/serve.js",
     "start": "npm-run-all --parallel watch serve"
   },
   "devDependencies": {

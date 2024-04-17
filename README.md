@@ -14,10 +14,9 @@ To get started with this static website generator, follow these steps:
 
 `npm install`
 
-3. Create or adjust the input and output directories to your needs.
+3. Adjust the input and output directories to your needs.
 
-- Either create a directory named 'src' in your project folder and put your source files into it. The generated files will be output to the 'html' folder, which will be created if not present.
-- Or rename the file `.env-dist` to `.env` and adjust the SWG_INPUT_DIRECTORY and SWG_OUTPUT_DIRECTORY environment variables to your needs.
+Rename the file `.env-dist` to `.env` and adjust the SWG_INPUT_DIRECTORY and SWG_OUTPUT_DIRECTORY environment variables to your needs.
 
 4. Run the script
 
