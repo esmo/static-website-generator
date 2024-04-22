@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "eleventy",
+    "clean": "node bin/clean.js",
     "watch": "node bin/watch.js",
     "serve": "node bin/serve.js",
     "start": "npm-run-all --parallel watch serve"

@@ -1,0 +1,8 @@
+{
+  "sites": {
+    "default": {
+      "input": "./src",
+      "output": "./html"
+    }
+  }
+}
